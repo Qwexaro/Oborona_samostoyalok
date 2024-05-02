@@ -1,0 +1,36 @@
+<script>
+    // Функция это фрагмент кода со своим именем
+    // function f(){ // imya func + prinimaet znachenie
+    //     let sum = 0
+    //     for(let i = 0; i < arguments.length; i++){
+    //         sum += arguments[i]
+    //     } // telo func
+    //     return sum // vozraschaet 1 znachenie
+    //     // returnom mozna vospolzovatsa rezultatom snova
+    // }
+    // // pri opisanii func ukazivayut spisok parametrov, a pri isp argument
+    // console.log(f(f(2, 88, 548, 43, "Pravoda"),7589))
+
+
+    function Hello(){
+    kolechko = +prompt("Vvedi kolichestvo vivodov hello world")
+    for(let i = 1; i < kolechko + 1; i++)
+    {
+        console.log(i + "Hello world")
+    }
+    }
+    Hello()
+
+    function Vozvraschator(min, max){
+    num = min = max
+    while(num!=0)
+    {
+        if(num > max) max = num
+        if(num < min) min = num
+        rez = arguments[min, max]
+        return rez
+    }
+    
+    }
+    console.log(Vozvraschator(45, 478))
+</script>

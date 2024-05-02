@@ -1,0 +1,21 @@
+<script>
+    let pervaya_tsifra = +prompt("Vvedi pervuiy tsifru")
+    let vtoraya_tsifra = +prompt("Vvedi vtoruiy tsifru")
+    let tretiya_tsifra = +prompt("Vvedi tretiy tsifru")
+    if(pervaya_tsifra > vtoraya_tsifra && pervaya_tsifra > tretiya_tsifra)
+    {
+        alert(pervaya_tsifra + " Naibolshaya")
+    }
+    else if(vtoraya_tsifra > pervaya_tsifra && vtoraya_tsifra > tretiya_tsifra)
+    {
+        alert(vtoraya_tsifra + " Naibolshaya")
+    }
+    else if(tretiya_tsifra > pervaya_tsifra && tretiya_tsifra > vtoraya_tsifra)
+    {
+        alert(tretiya_tsifra + " Naibolshaya")
+    }
+    else
+    {
+        alert("Vi vveli dve i bolee ravnih chisla")
+    }
+</script>
